@@ -1,0 +1,31 @@
+main article{
+
+    padding: 2%;
+}
+
+ 
+main article{
+    height: 30vh;
+    border: 1px solid black;
+     margin:2%;
+}
+
+.sentence{
+    font-style: italic;
+    margin-bottom: 5%;
+}
+
+ footer{
+    border: 2px solid black;
+
+ }
+
+ footer h4{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+ }
+
+ footer p{
+    font-style: italic;
+ }

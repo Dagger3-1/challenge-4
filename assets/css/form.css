@@ -1,0 +1,59 @@
+
+
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 2px solid black;
+  
+}
+
+main figure{
+    flex: 1 0 45%;
+  
+    box-sizing: border-box;
+   display: flex;
+   justify-content: center;
+   padding-top: 1%;
+   border-left: 2px solid black;
+  
+}
+main figcaption{
+    background-image: linear-gradient( yellow, black);
+    width: 70%;
+    padding: 0 20%;
+    border-radius: 50%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+
+}
+figcaption h1{
+    width: 100%;
+    
+}
+ 
+    
+main section{
+    flex: 1 0 45%;
+    display:flex ;
+    justify-content: center;
+     flex-direction: column;
+     width: 100%;
+     border-left: 2px solid black;
+}
+section h2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+ 
+main form{
+    width: 100%;
+    padding: 0 5%;
+}
+
+input,textarea {
+    width: 100%;
+}
+
